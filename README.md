@@ -5,3 +5,4 @@ Some examples to use the raspberry pi sensehat with Python
 * Countdown: converts numbers to a 3 * 5 matrix, so 2 numbers fit on the LED matrix. Counts down from 99 to 0.
 * Compass: displays a dot on the LED matrix that points north.
 * Joystick: move a dot over the LED matrix usingthe joystick.
+* Point up: the arrow on the LED matrix points up and is colored red when shaken.

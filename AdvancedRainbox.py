@@ -1,4 +1,3 @@
-import numpy as np
 from time import sleep
 from sense_hat import SenseHat
 from ReflectionCurve import *
@@ -8,7 +7,6 @@ from NumberMatrix import *
 
 # initialize
 sense = SenseHat()
-sense.set_rotation(90)
 d65 = IlluminantData()
 matrix = np.array([
     [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]],
@@ -65,4 +63,4 @@ except KeyboardInterrupt:
         off, off, off, off, off, off, off, off,
         off, off, off, off, off, off, off, off]
     sense.set_pixels(pixels_off)
-    print("Advanced rainbox demo stopped")
+    print("Advanced rainbow demo stopped")
